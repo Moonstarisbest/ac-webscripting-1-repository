@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Page Title</title>
+     <style>
+    img {
+  max-width: 100%;
+  height: auto;}
+  </style>
 </head>
 <body>
     <header> 
@@ -10,21 +15,30 @@
         <p>This is a form used to contact me and send praises about my writing expertise.
     </header>
     <nav>
-        <a href="#sections"> About me, my skills, and my projects.</a> <br>
-        <a href="#contact"> My contact info</a> <br>
-        <a href="https://github.com/Moonstarisbest">This is my github</a>
+        <a href="index.html"> Homepage.</a> <br>
+        <a href="contact.html"> Contact Me!</a> <br>
+        <a href="projects.html"> Current Projects</a>
     </nav>
 <main>
     <div id="contact"><h2>Contact Me!</h2></div>
 <form> 
     <label for="name">Name</label>
     <input id="name" name="name" type="text" required minlength="2"/>
-    <label for="email">Email</label>
+    <br><br><label for="email">Email</label>
     <input id="email" name="email" type="email" required />
-    <label for="message">Message</label>
-    <textarea id="message" name="message" required minlength="10"></textarea>
+     <p>Rate how my website is designed!</p>
+      <input type="radio" id="rating1" name="opinion" value="awsome" required/>
+      <label for="awsome">Awsome</label>
+      <input type="radio" id="rating2" name="opinion" value="okay" required/>
+      <label for="okay">Okay</label>
+      <input type="radio" id="rating3" name="opinion" value="bad" required/>
+      <label for="bad">Bad</label><br>
+    <label for="message">Other thoughts</label>
+    <textarea id="message" name="message" minlength="10"></textarea>
     <button type="submit">Submit</button>
 </form>
+<p>Thank you for submitting your information! Here's a cute image for your troubles.</p>
+ <img src="Tbh.png" alt="This is an image of the TBH creature. He is here to inspire form submitters to be kind.">
 </main>
 <footer>
     <p>Atlas Christman's creation 2026 	&#169; </p>
