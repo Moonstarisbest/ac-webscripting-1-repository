@@ -3,25 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Page Title</title>
-     <style>
-    img {
-  max-width: 100%;
-  height: auto;}
-  </style>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <header> 
         <h1>Contact Atlas Christman</h1>
         <p>This is a form used to contact me and send praises about my writing expertise.
     </header>
-    <nav>
+    <nav  class="container">
         <a href="index.html"> Homepage.</a> <br>
         <a href="contact.html"> Contact Me!</a> <br>
         <a href="projects.html"> Current Projects</a>
     </nav>
 <main>
     <div id="contact"><h2>Contact Me!</h2></div>
-<form> 
+<form class="form"> 
     <label for="name">Name</label>
     <input id="name" name="name" type="text" required minlength="2"/>
     <br><br><label for="email">Email</label>
@@ -33,7 +29,7 @@
       <label for="okay">Okay</label>
       <input type="radio" id="rating3" name="opinion" value="bad" required/>
       <label for="bad">Bad</label><br>
-    <label for="message">Other thoughts</label>
+    <label for="message">Other thoughts</label><br>
     <textarea id="message" name="message" minlength="10"></textarea>
     <button type="submit">Submit</button>
 </form>
