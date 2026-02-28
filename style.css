@@ -1,0 +1,44 @@
+:root {
+    max: 40rem;
+    border-spacing: 0.5rem;
+    margin: 0.5rem;
+    padding: 2rem;
+    background-color: #82e95a;
+    text: #110514;
+    border: 15px rgb(173, 33, 191) dotted
+
+}
+
+body { 
+    font-size: 1rem;
+    padding: 1em;
+    background-color: rgb(196, 232, 239) }
+h1 { 
+    font-size: 2rem; }
+h2 { 
+    font-size: 1.5rem; }
+/*changing the tbh creature to be not rediciously big hurt my soul*/
+img {
+     max-width: 20%;
+  height: auto;}
+.stories{
+    background-color: #f5f8e2;
+    border: 4px #110514 double;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+}
+
+.form{
+    background-color:rgb(251, 243, 192);
+    border: 8px black;
+    padding: 10px;
+}
+
+.container{   
+    background-color: rgb(251, 243, 192);
+    text-color: #571060;
+    border: 9px rgb(185, 160, 85) double;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    }
